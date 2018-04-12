@@ -1,0 +1,89 @@
+@charset "utf-8";
+/*统一设置*/
+* {
+	margin: 0;
+	padding: 0;
+}
+ul,li {
+	list-style-type: none;
+}
+.logo {
+	width: 320px;
+	height: 238px;
+	padding: 22px 0 16px;
+	margin: 0 auto;
+}
+/*logo*/
+.logo img {
+	width: 320px;
+	height: 230px;
+	display: block;
+}
+/*立即安装*/
+.lijianzhuang {
+	display: block;
+	width: 230px;
+	height: 46px;
+	margin: 0 auto;
+	
+}
+.lijianzhuang img {
+	width: 230px;
+	height: 46px;
+	
+}
+
+/*提示文字*/
+.tishi {
+	color: #87949f;
+	font-size: 12px;
+	text-align: center;
+	padding: 10px 0 35px;
+}
+/*主题*/
+.zhuti {
+	display: block;
+	width: 320px;
+	margin: 0 auto;
+}
+/*列表*/
+.list {
+	width: 320px;
+	margin: 0 auto;
+	padding: 31px 0 14px;
+}
+.list li {
+	padding-left: 44px ;
+	padding-bottom: 16px ;
+	overflow: hidden;
+}
+.list li img {
+	width: 64px;
+	height: 64px;
+	float: left;
+}
+
+.list li .biaotitxt {
+	float: left;
+	padding-left: 14px ;	
+}
+.list li .biaotitxt h1 {
+	font-size: 13px;
+	color: #3a4048;
+	font-weight: normal;
+	padding: 14px 0 11px;
+}
+.list li .biaotitxt p {
+	font-size: 11px;
+	color: #87949F;
+	
+}
+/*网页底部*/
+footer {
+	font-size: 11px;
+	color: #87949f;
+	text-align: center;
+	padding: 10px 0;
+	line-height: 1.5em;
+	background: #f9f9f9;
+}
